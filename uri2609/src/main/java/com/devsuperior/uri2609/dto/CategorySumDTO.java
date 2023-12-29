@@ -16,8 +16,8 @@ public class CategorySumDTO {
 	}
 
 	public CategorySumDTO(CategorySumProjection projection) {
-		name = projection.getName();
-		sum = projection.getSum();
+		this.name = projection.getName();
+		this.sum = projection.getSum();
 	}
 
 	public String getName() {
